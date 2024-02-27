@@ -58,14 +58,14 @@ if answer == "yes":
 
 # Create a dictionary to record the items' prices of the Cafe stock.
 price = {
-    'Coffee': 4.40,
+    'Coffee': 5,
     'Tea': 6.25,
-    'English Breakfast': 25,
+    'English Breakfast': 32,
     'Sparkling Water': 4.20,
     'Soft Drink': 5,
-    'Cheese Bread': 3.25,
+    'Cheese Bread': 3.50,
     'Chocolate Cake': 7.50,
-    'Mince Pie': 8,
+    'Mince Pie': 7.50
     'Cupcake': 5,
     'Pop Corn': 2
     }
