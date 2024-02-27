@@ -5,7 +5,20 @@
 import math # Provides access to the mathematical functions.
 
 print("<<Cafe Menu:>>\n")
-menu = ['Coffee', 'Tea', 'English breakfast', 'Sparkling Water', 'Soft Drink', 'Cheese bread', 'Chocolate Cake', 'Mince Pie'] # Create a Menu as a list.
+
+# Create a Menu as a list.
+menu = [
+    'Coffee',
+    'Tea',
+    'English breakfast',
+    'Sparkling Water',
+    'Soft Drink',
+    'Cheese bread',
+    'Chocolate Cake',
+    'Mince Pie',
+    'Cupcake',
+    'Pop Corn'
+    ] 
 print(menu)
 print("\nThis is the today' Cafe Stock:")
 print("")
@@ -19,7 +32,9 @@ stock = {
      'Soft Drink': 25,
      'Cheese Bread': 55,
      'Chocolate Cake': 15,
-     'Mince Pie': 35
+     'Mince Pie': 35,
+     'Cupcake': 20,
+     'Pop Corn': 12
      }
 print(stock)
 
@@ -50,8 +65,10 @@ price = {
     'Soft Drink': 5,
     'Cheese Bread': 3.25,
     'Chocolate Cake': 7.50,
-    'Mince Pie': 8
-        }
+    'Mince Pie': 8,
+    'Cupcake': 5,
+    'Pop Corn': 2
+    }
 
 print("\n<<Item value in the Stock>>")    
 
